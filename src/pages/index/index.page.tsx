@@ -1,12 +1,17 @@
+import { useState } from 'react'
 import { Counter } from './Counter'
-
+import { YStack, H1, Button } from 'tamagui'
 export { Page }
 
 function Page() {
+  const [count, setCount] = useState(0)
+
   return (
     <>
-      <h1>Welcome</h1>
-      This page is:
+      <YStack>
+          <H1 color={'black'}>Vite + Tamagui</H1>
+          <Button onClick={() => setCount((count) => count + 1)}>count is {count}</Button>
+      </YStack>
       <ul>
         <li>Rendered to HTML.</li>
         <li>

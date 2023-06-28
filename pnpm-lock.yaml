@@ -8,6 +8,12 @@ dependencies:
   '@tamagui/config':
     specifier: ^1.36.4
     version: 1.36.4(react-native@0.72.0)(react@18.2.0)
+  '@tamagui/shorthands':
+    specifier: ^1.36.4
+    version: 1.36.4
+  '@tamagui/themes':
+    specifier: ^1.36.4
+    version: 1.36.4(react@18.2.0)
   '@tamagui/vite-plugin':
     specifier: ^1.36.4
     version: 1.36.4(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)

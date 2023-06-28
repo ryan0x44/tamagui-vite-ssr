@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Counter } from './Counter'
-import { YStack, H1, Button } from 'tamagui'
+import Tamagui from '@tamagui/web'
+const { YStack, H1, Button } = Tamagui
 export { Page }
 
 function Page() {

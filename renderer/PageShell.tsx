@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import { PageContextProvider } from './usePageContext'
 import type { PageContext } from './types'
 import { Link } from './Link'
-import { TamaguiProvider } from 'tamagui'
+import { TamaguiProvider } from '@tamagui/web'
 import tamaguiConfig from '../tamagui.config'
 
 export { PageShell }
